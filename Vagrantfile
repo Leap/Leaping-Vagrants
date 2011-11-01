@@ -22,7 +22,7 @@ Vagrant::Config.run do |config|
      chef.cookbooks_path = "cookbooks"
      chef.add_recipe "main"
      chef.add_recipe "postgres"
-     cher.add_recipe "redis"
+     chef.add_recipe "redis"
 
 
      chef.add_role "web"
